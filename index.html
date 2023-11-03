@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    
+    <title>Testbook</title>
+</head>
+<body>
+   
+    <div class="box">
+        <img src="logo.png" alt="Testbook Logo">
+       <div style="display: flex; justify-content: center;"><h1>Hello</h1>
+        <h1 id="k">user!</h1></div>
+        <h4> Enter your name to continue the Quiz</h4>
+        <input type="text" placeholder="ENTER YOUR NAME"  id="a"/>
+        
+        <input type="submit" class="button1" onclick="e()" value="Enter">
+              
+        <p>You'll have 10 seconds to answer each questions</p>
+        <hr>
+        <h1>Select Category</h1>
+      
+        
+        <a href= "file:///C:/Users/Amit/OneDrive/Desktop/Projects/Testbook%20Quiz%20App-pdil%20-%20Copy/index1.html"> <button class="button2">Pipe And Cistern</button>
+            <a href= "file:///C:/Users/Amit/OneDrive/Desktop/Projects/Testbook%20Quiz%20App-pdil%20-%20Copy/index2.html"> <button  class="button2" >Profit And Loses</button>
+                <a href="file:///C:/Users/Amit/OneDrive/Desktop/Projects/Testbook%20Quiz%20App-pdil%20-%20Copy/index3.html"><button  class="button2" >Probability</button></a>
+                <a href= "file:///C:/Users/Amit/OneDrive/Desktop/Projects/Testbook%20Quiz%20App-pdil%20-%20Copy/index1.html"><button  class="button2">Problem On Ages</button>
+        </div>
+    <script> function e()
+    {
+    document.querySelector('#k').innerHTML=document.querySelector('#a').value
+    }</script>
+   
+</body>
+</html>
